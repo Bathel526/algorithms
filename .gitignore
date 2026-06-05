@@ -1,0 +1,55 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+# virtual environments
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# modele
+*.h5
+*.keras
+*.ckpt
+*.index
+*.data-*
+# TensorBoard logs
+logs/
+tensorboard_logs/
+# cache TensorFlow
+.cache/
+
+# PyTorch (gdy ktoś używa)
+*.pt
+*.pth
+*.bin
+
+# Datasets (często bardzo duże dane zdjęcia itp)
+data/
+datasets/
+raw_data/
+processed_data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# ML experiment tracking (opcjonalne)
+mlruns/
+wandb/
